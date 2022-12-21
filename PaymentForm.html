@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="mailto:@kashgupta051@gmail.com">
+        <h1>Payment Form</h1>
+
+        <p>Required fields are followed by *</p>
+
+        <h2>Contact Information</h2>
+
+        <p>Name : *<input type ="text" name="Name" required></p>
+
+        <fieldset>
+            <legend>Gender : *</legend>
+        <p>
+            Male <input type="radio" name="Gender" required>
+            <br>
+            Female <input type="radio" name="Gender" required>
+            <br>
+            Other <input type="radio" name="Gender" required>
+        </p>
+        </fieldset>
+
+        <p>Address : <textarea name="address" cols="100" rows="5"></textarea></p>
+
+        <p>Email : *<input type="email" name="email" required></p>
+
+        <p>Pincode : *<input type="number" name="pincode" id="" required></p>
+
+        <h2>Payement Information</h2>
+
+        <p>
+            Card Type: *
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Master Card</option>
+                <option value="rupay">Rupay</option>
+            </select>
+        </p>
+
+        <p>
+            Card Number : *<input type="number" name="card number" id="card number" required>
+        </p>
+
+        <p>
+            Card Expiration Date : *<input type="date" name="card exp date" id="card exp date" required>
+        </p>
+
+        <p>
+            CVV : *<input type="password" name="cvv" id="cvv" required>
+        </p>
+        <p>Pick a color from these <input type="color"></p>
+        <br>
+        <p> <input type="checkbox" required> Are you gay? </p>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="file" value="Pick a file" size="10MB">
+
+    </form>
+</body>
+</html>
